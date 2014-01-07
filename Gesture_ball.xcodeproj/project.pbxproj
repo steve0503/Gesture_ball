@@ -21,6 +21,8 @@
 		04B85B74187C427A004873F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B85B56187C427A004873F2 /* UIKit.framework */; };
 		04B85B7C187C427A004873F2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04B85B7A187C427A004873F2 /* InfoPlist.strings */; };
 		04B85B7E187C427A004873F2 /* Gesture_ballTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B85B7D187C427A004873F2 /* Gesture_ballTests.m */; };
+		04B85B8B187C4440004873F2 /* Basketball.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B85B8A187C4440004873F2 /* Basketball.png */; };
+		04B85B8D187C4518004873F2 /* soccerball1.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B85B8C187C4518004873F2 /* soccerball1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		04B85B79187C427A004873F2 /* Gesture_ballTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gesture_ballTests-Info.plist"; sourceTree = "<group>"; };
 		04B85B7B187C427A004873F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04B85B7D187C427A004873F2 /* Gesture_ballTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gesture_ballTests.m; sourceTree = "<group>"; };
+		04B85B8A187C4440004873F2 /* Basketball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Basketball.png; sourceTree = "<group>"; };
+		04B85B8C187C4518004873F2 /* soccerball1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soccerball1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,7 @@
 		04B85B46187C427A004873F2 = {
 			isa = PBXGroup;
 			children = (
+				04B85B87187C435B004873F2 /* Res */,
 				04B85B58187C427A004873F2 /* Gesture_ball */,
 				04B85B77187C427A004873F2 /* Gesture_ballTests */,
 				04B85B51187C427A004873F2 /* Frameworks */,
@@ -150,6 +155,15 @@
 				04B85B7A187C427A004873F2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04B85B87187C435B004873F2 /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				04B85B8C187C4518004873F2 /* soccerball1.png */,
+				04B85B8A187C4440004873F2 /* Basketball.png */,
+			);
+			name = Res;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,8 +242,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B85B8D187C4518004873F2 /* soccerball1.png in Resources */,
 				04B85B6B187C427A004873F2 /* Images.xcassets in Resources */,
 				04B85B5D187C427A004873F2 /* InfoPlist.strings in Resources */,
+				04B85B8B187C4440004873F2 /* Basketball.png in Resources */,
 				04B85B66187C427A004873F2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
